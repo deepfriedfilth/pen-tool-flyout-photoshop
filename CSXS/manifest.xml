@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="5.0" ExtensionBundleId="com.nathankawatski.pentoolflyout" ExtensionBundleVersion="2.0"
+		ExtensionBundleName="Pen Tool" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SHA="ab1718b">
+	<ExtensionList>
+		<Extension Id="com.nathankawatski.pentoolflyout" Version="2.0" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="PHXS" Version="[15.0,99.9]" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="5.0" />
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="com.nathankawatski.pentoolflyout">
+			<DispatchInfo >
+				<Resources>
+					<MainPath>./client/index.html</MainPath>
+					<ScriptPath>./host/index.jsx</ScriptPath>
+					<CEFCommandLine />
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>Panel</Type>
+					<Menu>Pen Tools</Menu>
+					<Geometry>
+						<Size>
+							<Height>50</Height>
+							<Width>220</Width>
+						</Size>
+						<MaxSize>
+							<Height>50</Height>
+							<Width>220</Width>
+						</MaxSize>
+						<MinSize>
+							<Height>50</Height>
+							<Width>220</Width>
+						</MinSize>
+					</Geometry>
+				</UI>
+			</DispatchInfo>	
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>

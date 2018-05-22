@@ -1,0 +1,35 @@
+{
+  "name": "pen-tool-flyout-photoshop",
+  "version": "2.0.0",
+  "description": "Enhances Photoshop with similar functionality to Illustrator's Pen Tool flyout panel.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepfriedfilth/pen-tool-flyout-photoshop.git"
+  },
+  "keywords": [
+    "pen",
+    "tool",
+    "flyout",
+    "panel",
+    "adobe",
+    "photoshop",
+    "illustrator",
+    "adobe",
+    "extension"
+  ],
+  "author": "Nathan Kawatski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepfriedfilth/pen-tool-flyout-photoshop/issues"
+  },
+  "homepage": "https://github.com/deepfriedfilth/pen-tool-flyout-photoshop#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}

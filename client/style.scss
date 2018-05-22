@@ -1,0 +1,186 @@
+@charset 'utf-8';
+
+body {
+	margin: 0;
+	padding: 10px;
+}
+
+button {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	text-indent: -999em;
+	overflow: hidden;
+	border: 1px solid;
+	border-radius: 2px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	outline: none;
+}
+
+.darkest {
+
+	button {
+		background-color: rgb(50,50,50);
+		border-color: rgb(50,50,50);
+
+		&#pen-tool {
+			background-image: url('assets/darkest/pen.svg');
+		}
+
+		&#add-anchor {
+			background-image: url('assets/darkest/pen-add.svg');
+		}
+
+		&#del-anchor {
+			background-image: url('assets/darkest/pen-minus.svg');
+		}
+
+		&#convert-point {
+			background-image: url('assets/darkest/anchor.svg');
+		}
+
+		&#path-select {
+			background-image: url('assets/darkest/path-select.svg');
+		}
+
+		&#direct-select {
+			background-image: url('assets/darkest/direct-select.svg');
+		}
+
+		&:hover,
+		&:active,
+		&.active {
+			background-color: #1f1f1f;
+			border-color: #3e3e3e;
+		}
+	
+	}
+
+}
+
+.dark {
+
+	button {
+		background-color: rgb(50,50,50);
+		border-color: rgb(50,50,50);
+
+		&#pen-tool {
+			background-image: url('assets/dark/pen.svg');
+		}
+
+		&#add-anchor {
+			background-image: url('assets/dark/pen-add.svg');
+		}
+
+		&#del-anchor {
+			background-image: url('assets/dark/pen-minus.svg');
+		}
+
+		&#convert-point {
+			background-image: url('assets/dark/anchor.svg');
+		}
+
+		&#path-select {
+			background-image: url('assets/dark/path-select.svg');
+		}
+
+		&#direct-select {
+			background-image: url('assets/dark/direct-select.svg');
+		}
+
+		&:hover,
+		&:active,
+		&.active {
+			background-color: #383838;
+			border-color: #636363;
+		}
+	
+	}
+	
+}
+
+.light {
+
+	button {
+		background-color: rgb(50,50,50);
+		border-color: rgb(50,50,50);
+
+		&#pen-tool {
+			background-image: url('assets/light/pen.svg');
+		}
+
+		&#add-anchor {
+			background-image: url('assets/light/pen-add.svg');
+		}
+
+		&#del-anchor {
+			background-image: url('assets/light/pen-minus.svg');
+		}
+
+		&#convert-point {
+			background-image: url('assets/light/anchor.svg');
+		}
+
+		&#path-select {
+			background-image: url('assets/light/path-select.svg');
+		}
+
+		&#direct-select {
+			background-image: url('assets/light/direct-select.svg');
+		}
+
+		&:hover,
+		&:active,
+		&.active {
+			background-color: #808080;
+			border-color: #707070;
+		}
+	
+	}
+	
+}
+
+.lightest {
+
+	button {
+		background-color: rgb(50,50,50);
+		border-color: rgb(50,50,50);
+
+		&#pen-tool {
+			background-image: url('assets/lightest/pen.svg');
+		}
+
+		&#add-anchor {
+			background-image: url('assets/lightest/pen-add.svg');
+		}
+
+		&#del-anchor {
+			background-image: url('assets/lightest/pen-minus.svg');
+		}
+
+		&#convert-point {
+			background-image: url('assets/lightest/anchor.svg');
+		}
+
+		&#path-select {
+			background-image: url('assets/lightest/path-select.svg');
+		}
+
+		&#direct-select {
+			background-image: url('assets/lightest/direct-select.svg');
+		}
+
+		&:hover,
+		&:active,
+		&.active {
+			background-color: #bfbfbf;
+			border-color: #a8a8a8;
+		}
+	
+	}
+	
+}
