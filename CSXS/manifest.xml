@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExtensionManifest Version="5.0" ExtensionBundleId="com.nathankawatski.pentoolflyout" ExtensionBundleVersion="2.0"
+<ExtensionManifest Version="5.0" ExtensionBundleId="com.nathankawatski.pentoolflyout" ExtensionBundleVersion="2.0.0"
 		ExtensionBundleName="Pen Tool" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SHA="ab1718b">
 	<ExtensionList>
-		<Extension Id="com.nathankawatski.pentoolflyout" Version="2.0" />
+		<Extension Id="com.nathankawatski.pentoolflyout" Version="2.0.0" />
 	</ExtensionList>
 	<ExecutionEnvironment>
 		<HostList>
-			<Host Name="PHXS" Version="[15.0,99.9]" />
+			<Host Name="PHXS" Version="15.0.0" />
 		</HostList>
 		<LocaleList>
 			<Locale Code="All" />
