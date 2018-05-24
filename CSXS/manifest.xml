@@ -43,6 +43,10 @@
 							<Width>220</Width>
 						</MinSize>
 					</Geometry>
+					<Icons>
+						<Icon Type="Normal">./client/assets/1x/pen.png</Icon>
+						<Icon Type="DarkNormal">./client/assets/1x/pen-dark.png</Icon>
+					</Icons>
 				</UI>
 			</DispatchInfo>	
 		</Extension>
