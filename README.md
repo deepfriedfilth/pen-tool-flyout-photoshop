@@ -6,7 +6,8 @@ Created to add functionality from Adobe Illustrator into Photoshop
 
 ### Dependencies
 
-* node (⚠️ < 10)
+* [node](https://nodejs.org/en/download/)
+* [gulp](https://gulpjs.com/)
 
 `npm install`
 
