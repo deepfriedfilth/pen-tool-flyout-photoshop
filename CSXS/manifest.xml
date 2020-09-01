@@ -32,15 +32,15 @@
 					<Geometry>
 						<Size>
 							<Height>50</Height>
-							<Width>220</Width>
+							<Width>200</Width>
 						</Size>
 						<MaxSize>
 							<Height>50</Height>
-							<Width>220</Width>
+							<Width>200</Width>
 						</MaxSize>
 						<MinSize>
 							<Height>50</Height>
-							<Width>220</Width>
+							<Width>200</Width>
 						</MinSize>
 					</Geometry>
 					<Icons>
