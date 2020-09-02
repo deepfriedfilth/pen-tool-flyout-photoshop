@@ -8,6 +8,7 @@ Created to add functionality from Adobe Illustrator into Photoshop
 
 * [node](https://nodejs.org/en/download/)
 * [gulp](https://gulpjs.com/)
+* [create-zxp](https://www.npmjs.com/package/create-zxp)
 
 `npm install`
 

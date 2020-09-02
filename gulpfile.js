@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
+var run = require('gulp-run-command');
 
 gulp.task('styles', function(done) {
 	/* Sass it up, pack it up */
@@ -15,6 +16,12 @@ gulp.task('styles', function(done) {
 
 gulp.task('watch', function(done) {
 	gulp.watch('client/**/*.scss',gulp.parallel('styles'));
+
+	done();
+});
+
+gulp.task('build', function(done) {
+	run('create-zxp --out-dir build .');
 
 	done();
 });

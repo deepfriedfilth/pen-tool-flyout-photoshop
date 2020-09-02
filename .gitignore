@@ -3,3 +3,7 @@ node_modules/
 .debug
 style.css
 style.css.map
+archives/
+build/
+*.zxp
+*.p12
