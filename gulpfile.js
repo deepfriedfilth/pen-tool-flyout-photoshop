@@ -20,8 +20,8 @@ gulp.task('watch', function(done) {
 	done();
 });
 
-gulp.task('build', function(done) {
 	run('create-zxp --out-dir build .');
+gulp.task('package', function(done) {
 
 	done();
 });
