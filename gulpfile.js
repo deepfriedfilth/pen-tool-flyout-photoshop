@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
-var run = require('gulp-run-command');
+var run = require('gulp-run-command').default;
 
 gulp.task('styles', function(done) {
 	/* Sass it up, pack it up */
